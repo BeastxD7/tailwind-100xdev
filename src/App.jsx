@@ -5,6 +5,7 @@ import {
   ChevronRight,
   Video,
 } from "lucide-react";
+import Sidebar from "./components/sidebar";
 function App() {
   return (
     <>
@@ -19,6 +20,8 @@ function App() {
             <h1 className="text-gray-950 text-2xl font-bold mt-5">
               Good Morning, Shashank!👋
             </h1>
+
+           
 
             <div className="w-full  h-[70%] mt-10 flex justify-center gap-10">
               <div className="bg-slate-300  min-w-[40rem] rounded-lg">
@@ -126,7 +129,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="fixed top-1/2 left-8 transform -translate-y-1/2 z-50 bg-white rounded-3xl shadow-lg p-6 w-[280px] mt-[-10rem] ml-[9rem]">
+              <div className="md:fixed top-1/2 left-8 transform -translate-y-1/2 z-50 bg-white rounded-3xl shadow-lg p-6 w-[280px] mt-[-10rem] ml-[9rem]">
                 <div className="flex flex-col items-center text-center">
                   <img
                     src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Ftalent%2F427843%2Fpicture%2Foptimized%2Fhuge_c711f787694f240c7bb20e598bfdd6e8-e2b83df354d725bbf11311fddbcf3719.jpg&width=480"
@@ -171,7 +174,7 @@ function App() {
             </div>
           </div>
 
-          <div></div>
+          <Sidebar />
         </section>
       </main>
     </>
