@@ -25,10 +25,10 @@ export default function Sidebar() {
 
         
           <ul className="space-y-2 text-white">
-           <li>hello</li>
-           <li>hello</li>
-           <li>hello</li>
-           <li>hello</li>
+           <li className='cursor-pointer hover:bg-slate-500 rounded-md transition-all duration-300'>hello</li>
+           <li className='cursor-pointer hover:bg-slate-500 rounded-md transition-all duration-300'>hello</li>
+           <li className='cursor-pointer hover:bg-slate-500 rounded-md transition-all duration-300'>hello</li>
+           <li className='cursor-pointer hover:bg-slate-500 rounded-md transition-all duration-300'>hello</li>
           </ul>
         </div>
       </aside>
